@@ -40,7 +40,7 @@ const FeedCard=({feedData,setModalOpen}:FeedCardProps):JSX.Element=> {
                     </div>
                     </div>
                 <div className='border-solid border border-[#191920] rounded-lg bg-[#191920] flex gap-4 p-3 items-center'>
-                    <div className='border-solid border w-12 h-12 border-[#27292D] bg-[#35373B] rounded-full text-center place-content-center min-w-[10%] sm:min-w-[0]'>{feedValue.emoji}</div>
+                    <div className='border-solid border w-8 h-8  md:w-12 md:h-12 border-[#27292D] bg-[#35373B] rounded-full text-center place-content-center min-w-[10%] sm:min-w-[0]'>{feedValue.emoji}</div>
                     <p className='text-base text-[#7F8084] max-w-[90%]'>{feedValue.postText}</p>
                 </div>
                 <div className='flex items-center gap-2'>
