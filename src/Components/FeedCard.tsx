@@ -45,7 +45,7 @@ const FeedCard=({feedData,setModalOpen}:FeedCardProps):JSX.Element=> {
                 </div>
                 <div className='flex items-center gap-2'>
                 <div>
-                <img src='/FeedApp/assets/ChatBubble.svg' />
+                <img src='/assets/ChatBubble.svg' />
                 </div>
                 <p className='font-medium text-[#7F8084]'>{`${feedValue.commentsCount} comments`}</p>
                 </div>
