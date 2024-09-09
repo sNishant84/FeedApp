@@ -77,7 +77,7 @@ const SignUp=({setClickedElement,setModalOpen}:SignUpProps):JSX.Element=> {
 
   return (
    <div className='place-content-center'>
-    <div className='border-solid border-2 border-[#35373B] rounded-lg max-w-lg max-h-md   px-6 py-8  w-[460px]  bg-[#27292D] from-[#969696] to-[#343434]'>
+    <div className='border-solid border-2 border-[#35373B] rounded-lg max-w-lg max-h-md   px-6 py-8  md:w-[460px]  bg-[#27292D] from-[#969696] to-[#343434]'>
         <div>
             <p className='capitalize text-[#6B6C70] text-sm text-center'>Sign up</p>
             <h1 className='text-[#fff] text-lg text-center'>Create an account to continue</h1>
