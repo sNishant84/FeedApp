@@ -81,7 +81,7 @@ export const Login =({setClickedElement,setModalOpen}:LoginProps):JSX.Element=>{
     }
 
   return(
-    <div className='border-solid border-2 border-[#35373B] rounded-lg max-w-lg max-h-[480px] h-auto px-5 pt-9 pb-8 w-[460px]  bg-[#27292D] from-[#969696] to-[#343434]'>
+    <div className='border-solid border-2 border-[#35373B] rounded-lg max-w-lg md:max-h-[480px] h-auto px-5 pt-9 pb-8 w-[460px]  bg-[#27292D] from-[#969696] to-[#343434]'>
     <div>
         <p className='uppercase text-[#6B6C70] text-sm text-center'>Welcome Back</p>
         <h1 className='text-[#fff] text-lg text-center'>Log into your account</h1>
