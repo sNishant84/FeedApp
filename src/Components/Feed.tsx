@@ -11,7 +11,7 @@ const Feed:FC=():JSX.Element=> {
     
 const [openModal,setModalOpen]=useState<boolean>(false);
 const [clickedElement,setClickedElement]=useState<string>('signup');
-console.log("clicked",clickedElement)
+
 
   return (
    <div className='bg-[#191920] h-screen font-sans overflow-scroll relative'> 
