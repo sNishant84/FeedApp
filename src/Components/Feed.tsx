@@ -1,4 +1,4 @@
-import React,{FC, useContext, useEffect, useState} from 'react'
+import {FC, useState} from 'react'
 import { feedData } from '../Data/data'
 import { POST_HEADING } from './constant'
 import FeedCard from './FeedCard';
