@@ -1,4 +1,4 @@
-import React,{FC, useContext, useState} from 'react'
+import {FC, useContext, useState} from 'react'
 import { useAuth } from '../context/AuthProvider';
 import { saveData } from '../Utils/saveData';
 import { SignUpErrorType, SignUpFormType } from './types';
