@@ -3,7 +3,6 @@ import {LoginPage} from './Components/Login';
 import Feed from './Components/Feed';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './context/AuthProvider'; 
-import './App.css';
 
 function App() {
 
