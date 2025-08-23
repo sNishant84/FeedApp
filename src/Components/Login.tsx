@@ -1,4 +1,4 @@
-import React,{FC, useEffect, useState} from 'react'
+import {FC, useEffect, useState} from 'react'
 import { useAuth } from '../context/AuthProvider';
 import { retrievedData } from '../Utils/retreiveData';
 import { LoginErrorType, LoginFormType } from './types';
